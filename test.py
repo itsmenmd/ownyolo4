@@ -135,9 +135,10 @@ class Yolo4(object):
         return image
 
 if __name__ == '__main__':
-    model_path = 'yolo4_weight.h5'
+    model_path = 'yolo4_weight_new2.h5'
     anchors_path = 'model_data/yolo4_anchors.txt'
     classes_path = 'model_data/coco_classes.txt'
+    classes_path = 'model_data/card_classes.txt'
 
     score = 0.5
     iou = 0.5
